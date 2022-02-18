@@ -1,0 +1,13 @@
+<h2>Filtiranje rezultata iz baze:</h2>
+<ul>
+    {% for p in markos %}
+        <li>
+            Ime: {{ p.ime }}<br>
+            Prezime: {{ p.prezime }}<br>
+            Datum rodenja: {{p.datum_rodenja}}<br>
+            Paket: {{p.opcija_paket}}<br><br>
+        </li>
+    {% endfor %}
+</ul>
+
+
