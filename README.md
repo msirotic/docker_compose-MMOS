@@ -1,6 +1,7 @@
 # docker_compose-MMOS
 
 Prvi seminarski rad iz kolegija Mrežni i mobilni opreacijski sustavi
+
 Pokretanje jednostavne Django aplikacije pomoću Docker compose
 
 1. predmemorija - Redis
